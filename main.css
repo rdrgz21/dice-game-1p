@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient(to right, green, yellow);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 10px white;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+h1, h2, button {
+    font-family: 'Major Mono Display', monospace;
+}
+
+button {
+    font-size: 28px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 0px;
+    width: 120px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    border: 0px;
+}
+
+button:active {
+    background-color: #833AB4;
+    border: 0px;
+}
+
+button:focus {outline:0;}
